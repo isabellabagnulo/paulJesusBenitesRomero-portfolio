@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio Paul Jesus Benites Romero">
+    <meta name="keywords" content="portfolio, graphic designer">
+    <meta name="author" content="Isabella Bagnulo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Jesus Benites Romero</title>
+    <script src="https://kit.fontawesome.com/a8f17e5631.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo logo-out">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo Paul Jesus Benites Romero">
+            </a>
+        </div>
+        <nav>
+
+            <div class="burger-menu">
+                <button class="open">OPEN MENU</button>
+                <button class="close">CLOSE</button>
+            </div>
+            
+            <div class="menu">
+                <div class="logo logo-in">
+                    <a href="index.html">
+                        <img src="img/logo-menu.png" alt="Logo Paul Jesus Benites Romero">
+                    </a>
+                </div>
+                <ul class="menu-li">
+                    <li><a href="chi-sono.html">Chi sono</a></li>
+                    <li><a href="servizi.html">Servizi</a></li>
+                    <li><a href="collaborazione.html">Collaborazione</a></li>
+                    <li><a href="lavori.html">Lavori</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contattami.html">Contattami</a></li>
+                </ul>
+
+                <div class="footer">
+                    <ul class="menu-social">
+                        <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+                    </ul>
+                    <div class="credits">
+                        <p>Copyright © Paul Jesus Benites Romero 2019</p>
+                        <p>Consulente Digitale & Designer Multidisciplinare</p>
+                        <p>P.IVA 20124840966</p>
+                        <p>Sviluppato da <a href="#">Isabella Bagnulo</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <ul class="desktop-menu">
+                <li><a href="chi-sono.html">Chi sono</a></li>
+                <li><a href="servizi.html">Servizi</a></li>
+                <li><a href="collaborazione.html">Collaborazione</a></li>
+                <li><a href="lavori.html">Lavori</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contattami.html">Contattami</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="page">
+
+        <section class="tac">
+            <h1>Vuoi collaborare?</h1>
+            <p>Se hai in mente un progetto, una collaborazione o semplicemente vuoi chiedermi qualche informazione, qui sotto trovi un form da compilare. Rispondo sempre a tutte le persone che mi scrivono, se entro 48-72h.</p>
+            <div class="buttons">
+                <div class="button"><a href="#">Di che cosa ti occupi?</a></div>
+                <div class="button"><a href="#">Per quale tipo di clienti lavori?</a></div>
+            </div>
+        </section>
+
+        <section>
+            <form action="get">
+                <div class="form-section">
+                    <label for="name">Lasciami il tuo nome così potrò sapere chi sei</label>
+                    <input type="text" id="name" name="name" placeholder="Lasciami il tuo nome così potrò sapere chi sei">
+                </div>
+                <div class="form-section">
+                    <label for="name">Inserisci una mail dove potrò risponderti</label>
+                    <input type="text" id="name" name="name" placeholder="Inserisci una mail dove potrò risponderti">
+                </div>
+
+                <div class="form-section-radio">
+                    <h5>CHE TIPO DI CLIENTE SEI?</h5>
+                    <label for="privato"><input type="radio" id="privato" name="client-type" value="privato"><span>Privato</span></label>
+                    <label for="azienda"><input type="radio" id="azienda" name="client-type" value="azienda"><span>Azienda</span></label>
+                    <label for="agenzia"><input type="radio" id="agenzia" name="client-type" value="agenzia"><span>Agenzia</span></label>
+                    <label for="startup"><input type="radio" id="startup" name="client-type" value="startup"><span>Startup</span></label>
+                </div>
+
+                <div class="form-section-radio">
+                    <h5>QUAL É LA TUA RICHIESTA?</h5>
+                    <label for="consulenza"><input type="radio" id="consulenza" name="client-request" value="consulenza"><span>Consulenza</span></label>
+                    <label for="servizi-di-design"><input type="radio" id="servizi-di-design" name="client-request" value="servizi-di-design"><span>Servizi di Design</span></label>
+                    <label for="docenza"><input type="radio" id="docenza" name="client-request" value="docenza"><span>Docenza</span></label>
+                    <label for="altro"><input type="radio" id="altro" name="client-request" value="altro"><span>Altro</span></label>
+                </div>
+
+                <div class="form-section-radio">
+                    <h5>CHE TEMPISTICHE HAI?</h5>
+                    <label for="1"><input type="radio" id="1" name="client-type" value="1"><span>Solo un giorno</span></label>
+                    <label for="2-10"><input type="radio" id="2-10" name="client-type" value="2-10"><span>Tra 2 e 10 giorni</span></label>
+                    <label for="10-40"><input type="radio" id="10-40" name="client-type" value="10-40"><span>Tra 10 e 40 giorni</span></label>
+                    <label for="40+"><input type="radio" id="40+" name="client-type" value="40+"><span>Più di 40 giorni</span></label>
+                </div>
+
+                <div class="form-section-radio">
+                    <h5>QUAL É IL BUDGET?</h5>
+                    <label for="1000-"><input type="radio" id="1000-" name="client-type" value="1000-"><span>Meno di 1.000 €</span></label>
+                    <label for="1000-2000"><input type="radio" id="1000-2000" name="client-type" value="1000-2000"><span>Tra 1.000 € e 2.000 €</span></label>
+                    <label for="5000-10000"><input type="radio" id="5000-10000" name="client-type" value="5000-10000"><span>Tra 5.000 € e 10.000 €</span></label>
+                    <label for="10000+"><input type="radio" id="10000+" name="client-type" value="10000+"><span>Più di 10.000 €</span></label>
+                    <label for="probono"><input type="radio" id="probono" name="client-type" value="probono"><span>Pro bono</span></label>
+                </div>
+
+                <div class="form-section">
+                    <h5>LASCIAMI UN MESSAGGIO</h5>
+                    <label for="name">Cosa vuoi dirmi?</label>
+                    <input type="text" id="name" name="name" placeholder="Cosa vuoi dirmi?">
+                </div>
+
+                <div class="submitbutton">
+                    <input type="submit" value="Invia richiesta">
+                </div>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <ul class="menu-social">
+            <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+            <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+        </ul>
+        <div class="credits">
+            <p>Copyright © Paul Jesus Benites Romero 2019</p>
+            <p>Consulente Digitale & Designer Multidisciplinare</p>
+            <p>P.IVA 20124840966</p>
+            <p>Sviluppato da <a href="#">Isabella Bagnulo</a></p>
+        </div>
+
+    </footer>
+    <script type="module" src="js/index.js"></script>
+
+</body>
+</html>
