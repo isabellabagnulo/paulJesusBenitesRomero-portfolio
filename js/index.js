@@ -1,3 +1,3 @@
-import {burgermenu} from './burger.js';
+import { burgermenu } from "./burger.js"
 
-document.addEventListener('DOMContentLoaded', burgermenu);
+document.addEventListener("DOMContentLoaded", burgermenu)

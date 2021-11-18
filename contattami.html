@@ -82,7 +82,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="form-container">
             <form action="get">
                 <div class="form-section">
                     <label for="name">Lasciami il tuo nome così potrò sapere chi sei</label>
@@ -126,14 +126,19 @@
                     <label for="probono"><input type="radio" id="probono" name="client-type" value="probono"><span>Pro bono</span></label>
                 </div>
 
-                <div class="form-section">
-                    <h5>LASCIAMI UN MESSAGGIO</h5>
+                <div class="form-section add-padding-top">
+                    <div class="form-header">
+                        <h5>LASCIAMI UN MESSAGGIO</h5>
+                        <p>Opzionale</p>
+                    </div>
                     <label for="name">Cosa vuoi dirmi?</label>
                     <input type="text" id="name" name="name" placeholder="Cosa vuoi dirmi?">
                 </div>
 
-                <div class="submitbutton">
-                    <input type="submit" value="Invia richiesta">
+                <div class="submit-button-container">
+                    <div class="submitbutton">
+                        <input type="submit" value="Invia richiesta" id="submitbutton">
+                    </div>
                 </div>
                 
             </form>
