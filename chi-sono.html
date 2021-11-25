@@ -71,11 +71,19 @@
         </nav>
     </header>
 
-    <main class="page">
+    <div class="vertical-menu">
+        <ul>
+            <li class="active"> <a href="#section1">Chi sono</a> </li>
+            <li> <a href="#section2">Corsi e docenze</a> </li>
+            <li> <a href="#section3">Public Speaking</a> </li>
+            <li> <a href="#section4">Premi</a> </li>
+        </ul>
+    </div>
 
-        <h1>Hola, sono Paul Jesus Benites Romero e sono uno <span class="portland-orange">Strategist</span> e <span class="portland-orange">UX Designer</span></h1>
+    <main class="page">
         
-        <section>
+        <section id="section1">
+            <h1>Hola, sono Paul Jesus Benites Romero e sono uno <span class="portland-orange">Strategist</span> e <span class="portland-orange">UX Designer</span></h1>
             <div class="section-chisono grid-6-4">
                 <img class="img-p-bottom" src="img/personal-image.png" alt="Paul Jesus Benites Romero">
                 <div class="p-top">
@@ -124,7 +132,7 @@
 
         </section>
         
-        <section>
+        <section id="section2">
 
             <div class="grid-4-6">
                 <h1 class="grid-content">Corsi<br>e docenze</h1>
@@ -165,27 +173,25 @@
                 </div>
             </div>
 
-        </section>
-
-        <section>
-
-            <div class="grid-6-4">
-                <figure class="grid-content img-p-bottom">
-                    <img src="img/gruppo1.png" alt="gruppo">
-                    <figcaption>Mentor per team vincitore del 2° premio per PosteHack</figcaption>
-                </figure>
+            <div class="section">
+                <div class="grid-6-4 add-padding-top">
+                    <figure class="grid-content img-p-bottom">
+                        <img src="img/gruppo1.png" alt="gruppo">
+                        <figcaption>Mentor per team vincitore del 2° premio per PosteHack</figcaption>
+                    </figure>
+                </div>
+    
+                <div class="grid-4-6">
+                    <figure class="grid-content img-p-bottom">
+                        <img src="img/gruppo2.png" alt="gruppo">
+                        <figcaption>Mentor per team vincitore del 3° premio per PosteHack</figcaption>
+                    </figure>
+                </div>
             </div>
 
-            <div class="grid-4-6">
-                <figure class="grid-content img-p-bottom">
-                    <img src="img/gruppo2.png" alt="gruppo">
-                    <figcaption>Mentor per team vincitore del 3° premio per PosteHack</figcaption>
-                </figure>
-            </div>
-
         </section>
 
-        <section>
+        <section id="section3">
 
             <h1>Publick Speaking</h1>
 
@@ -252,7 +258,7 @@
 
         </section>
 
-        <section>
+        <section id="section4">
 
             <h1>Premi</h1>
             <div class="grid-6-4">
@@ -266,9 +272,6 @@
                 <img src="img/awwards.png" alt="Awwards">
             </div>
 
-        </section>
-
-        <section>
             <div class="card-section">
                 <h2>Vuoi collaborare assieme?</h2>
                 <p>Scarica il mio CV qui sotto, ti farò 2 domande prima di poterlo scaricare</p>
@@ -277,6 +280,7 @@
                     <div class="button"><a href="#">Domanda 2</a></div>
                 </div>
             </div>
+
         </section>
 
         <section class="remove-margin quote-section">
@@ -303,6 +307,7 @@
 
     </footer>
     <script type="module" src="js/slider.js"></script>
+    <script type="module" src="js/scrollspy.js"></script>
     <script type="module" src="js/index.js"></script>
 
 </body>
