@@ -42,7 +42,24 @@ slider.addEventListener("wheel", (evt) => {
 })
 
 // touch event
+slider.addEventListener("touchstart", (e) => {
+  pressed = true
+  startx = e.targetTouches[0].pageX - innerSlider.offsetLeft
+})
 
+window.addEventListener("touchend", () => {
+  pressed = false
+})
+
+slider.addEventListener("touchmove", (e) => {
+  if (!pressed) return
+  e.preventDefault()
+  x = e.targetTouches[0].pageX
+  innerSlider.style.left = `${x - startx}px`
+  checkBoundary()
+})
+
+// check boundaries
 function checkboundary() {
   let outer = slider.getBoundingClientRect()
   let inner = innerSlider.getBoundingClientRect()

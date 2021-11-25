@@ -71,11 +71,17 @@
         </nav>
     </header>
 
+    <div class="vertical-menu">
+        <ul>
+            <li class="active"> <a href="#section1">Come collaboro</a> </li>
+            <li> <a href="#section2">Agenzia</a> </li>
+        </ul>
+    </div>
+
     <main class="page">
 
-        <h1>Collaboro con <span class="portland-orange">agenzie</span> digitali, <span class="portland-orange">startup</span> e <span class="portland-orange">aziende</span> italiane ed estere</h1>
-
         <section>
+            <h1>Collaboro con <span class="portland-orange">agenzie</span> digitali, <span class="portland-orange">startup</span> e <span class="portland-orange">aziende</span> italiane ed estere</h1>
             <p>Nella <span class="portland-orange">fase strategica</span> accompagno clienti e aziende nella definizione di un prodotto o servizio digitale. Come? Attraverso un processo di scoperta dei problemi rilevanti per il business</p>
             <p>Un processo continuativo di consulenza sullo studio degli utenti, la creazione o validazione di modelli di business e il monitoraggio di KPI.</p>
             <p>Nella fase di esperienza mi occupo di integrare le mie competenze di user experience design, interaction design, service design e digital marketing.</p>
@@ -83,6 +89,7 @@
                 <div class="button"><a href="#">Di che cosa ti occupi?</a></div>
                 <div class="button"><a href="#">Per quale tipo di clienti lavori?</a></div>
             </div>
+            <img class="img-svg-triangle" src="img/triangle.svg" alt="triangle">
 
             <p class="p-xs tac">BRAND CON CUI HO COLLABORATO</p>
             <div class="logo-partner partner-3">
@@ -97,7 +104,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="section1">
             <h1>Come collaboro?</h1>
             <p>Organizzando meeting schedulati e definiti con uno scopo ben definito. Ogni meeting è seguito da una lista di punti d’azione (assegnare task, smarcare punti, mandare preventivo, ecc.) da smarcare per il meeting successivo.</p>
             <div class="buttons">
@@ -142,46 +149,48 @@
             </div>
         </section>
 
-        <section>
-            <h3>Agenzie Digitali</h3>
+        <section class="tac-desktop" id="section2">
+            <h3 class="add-padding-bottom">Agenzie Digitali</h3>
             <p>Collaboro con alcune agenzie su progetti di piccole e medie dimensioni, gestendo il mio tempo in maniera autonoma, e se necessario raggiungendo l’agenzia per il corso del progetto. Visto il numero di richieste per progetti non posso lavorare per oltre i 3 mesi su uno stesso progetto.</p>
-            <p class="p-xs tac">ATTIVITÀ REALIZZATE PER LE AGENZIE</p>
-            <div class="labels">
-                <div class="label">
-                    <p>Facilitatore per workshop da remoto</p>
+            <div class="add-padding-top">
+                <p class="p-xs">ATTIVITÀ REALIZZATE PER LE AGENZIE</p>
+                <div class="section-s labels">
+                    <div class="label">
+                        <p>Facilitatore per workshop da remoto</p>
+                    </div>
+                    <div class="label">
+                        <p>Progettazione wireframes</p>
+                    </div>
+                    <div class="label">
+                        <p>Prototipi interattivi</p>
+                    </div>
+                    <div class="label">
+                        <p>Usability e user testing</p>
+                    </div>
+                    <div class="label">
+                        <p>Monitoraggio analitics</p>
+                    </div>
+                    <div class="label">
+                        <p>Interviste con gli utenti</p>
+                    </div>
                 </div>
-                <div class="label">
-                    <p>Progettazione wireframes</p>
+                <div class="section-s grid-5-5">
+                    <div>
+                        <p class="p-xs">TIPOLOGIA DI CONTRATTO</p>
+                        <p>A progetto, freelance continuativo</p>
+                    </div>
+                    <div>
+                        <p class="p-xs">DURATA MAX</p>
+                        <p>60 giorni lavorativi</p>
+                    </div>
                 </div>
-                <div class="label">
-                    <p>Prototipi interattivi</p>
-                </div>
-                <div class="label">
-                    <p>Usability e user testing</p>
-                </div>
-                <div class="label">
-                    <p>Monitoraggio analitics</p>
-                </div>
-                <div class="label">
-                    <p>Interviste con gli utenti</p>
-                </div>
-            </div>
-            <div class="grid-5-5">
-                <div>
-                    <p class="p-xs">TIPOLOGIA DI CONTRATTO</p>
-                    <p>A progetto, freelance continuativo</p>
-                </div>
-                <div>
-                    <p class="p-xs">DURATA MAX</p>
-                    <p>60 giorni lavorativi</p>
-                </div>
-            </div>
-            <div>
-                <p class="p-xs tac">BRAND CON CUI HO COLLABORATO</p>
-                <div class="logo-partner partner-2">
-                    <img src="img/unicredit.png" alt="Unicredit">
-                    <img src="img/pwc.png" alt="Pwc">
-                    <img src="img/juventus.png" alt="Juventus">
+                <div class="section-s">
+                    <p class="p-xs">BRAND CON CUI HO COLLABORATO</p>
+                    <div class="logo-partner partner-2">
+                        <img src="img/unicredit.png" alt="Unicredit">
+                        <img src="img/pwc.png" alt="Pwc">
+                        <img src="img/juventus.png" alt="Juventus">
+                    </div>
                 </div>
             </div>
         </section>
@@ -214,6 +223,7 @@
         </div>
 
     </footer>
+    <script type="module" src="js/scrollspy.js"></script>
     <script type="module" src="js/index.js"></script>
 
 </body>
