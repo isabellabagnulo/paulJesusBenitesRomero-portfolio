@@ -8,10 +8,8 @@ function burgermenu() {
   function toggleMenu() {
     if (menu.classList.contains("expanded")) {
       menu.classList.remove("expanded")
-      setTimeout(function () {
-        close.style.display = "none"
-        open.style.display = "block"
-      }, 300)
+      close.style.display = "none"
+      open.style.display = "block"
     } else {
       menu.classList.add("expanded")
       close.style.display = "block"
